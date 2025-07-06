@@ -21,7 +21,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 OLLAMA_API_URL = os.environ.get("OLLAMA_API_URL", "http://localhost:11434/api/generate")
-OLLAMA_MODEL = os.environ.get("OLLAMA_MODEL", "tinyllama:latest") 
+OLLAMA_MODEL = os.environ.get("OLLAMA_MODEL", "llama3.2:1b") 
 OLLAMA_TIMEOUT = 30 
 
 # --- Bakery Data ---
